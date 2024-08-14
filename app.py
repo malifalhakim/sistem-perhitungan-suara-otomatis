@@ -4,7 +4,7 @@ from paddleocr import PaddleOCR
 from backend import process, pil_to_cv2
 from PIL import Image
 
-st.set_page_config(page_title="Sistem Perhitungan Suara Pemilu Otomatis", page_icon="📝", layout="centered")
+st.set_page_config(page_title="Sistem Pembaca Perhitungan Suara Pemilu Otomatis", page_icon="📝", layout="centered")
 
 # ====================================LOAD MODELS=====================================
 @st.cache_resource
